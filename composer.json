@@ -1,0 +1,33 @@
+{
+  "name": "richardhj/contao-ldap",
+  "type": "contao-module",
+  "authors": [
+    {
+      "name": "Richard Henkenjohann",
+      "email": "richardhenkenjohann@googlemail.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "richardhenkenjohann@googlemail.com",
+    "issues": "https://github.com/richardhj/contao-ldap/issues",
+    "source": "https://github.com/richardhj/contao-ldap"
+  },
+  "require": {
+    "php": "^5.3 || ^7.0",
+    "contao/core": "^3.2",
+    "symfony/ldap": "^3.3"
+  },
+  "autoload": {
+    "psr-0": {
+      "ContaoLdap\\": "src/"
+    }
+  },
+  "extra": {
+    "contao": {
+      "sources": {
+        "system/modules/check-joomla-credentials": "system/modules/check-joomla-credentials"
+      }
+    }
+  }
+}
