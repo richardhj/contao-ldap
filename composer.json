@@ -26,7 +26,7 @@
   "extra": {
     "contao": {
       "sources": {
-        "system/modules/check-joomla-credentials": "system/modules/check-joomla-credentials"
+        "module": "system/modules/ldap-auth"
       }
     }
   }
